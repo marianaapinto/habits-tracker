@@ -1,0 +1,31 @@
+.new-habit-form {
+  @apply w-full flex flex-col mt-6;
+}
+
+.new-habit-form__label {
+  @apply font-semibold leading-tight;
+}
+
+.new-habit-form__input {
+  @apply p-4 rounded-lg mt-3 bg-zinc-800 text-white placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-violet-700 focus:ring-offset-2 focus:ring-offset-zinc-900;
+}
+
+.new-habit-form__button {
+  @apply mt-6 rounded-lg p-4 flex items-center justify-center gap-3 font-semibold bg-green-600 hover:bg-green-500 transition-colors focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-zinc-900;
+}
+
+.new-habit-form__checkbox-container {
+  @apply mt-3 flex flex-col gap-2;
+}
+
+.new-habit-form__checkbox {
+  @apply flex items-center gap-3 focus:outline-none;
+}
+
+.new-habit-form__checkbox-inner {
+  @apply h-8 w-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 transition-colors group-focus:ring-2 group-focus:ring-violet-700 group-focus:ring-offset-2 group-focus:ring-offset-background;
+}
+
+.new-habit-form__checkbox-label {
+  @apply text-white leading-tight;
+}

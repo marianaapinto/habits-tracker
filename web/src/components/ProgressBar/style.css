@@ -1,0 +1,7 @@
+.progress-bar {
+  @apply h-3 rounded-xl bg-zinc-700 w-full mt-4;
+}
+
+.progress-bar__inner {
+  @apply h-3 rounded-xl bg-violet-600 transition-all;
+}

@@ -1,0 +1,15 @@
+.habits-list__checkbox-container {
+  @apply mt-6 flex flex-col gap-3;
+}
+
+.habits-list__checkbox {
+  @apply flex items-center gap-3 focus:outline-none disabled:cursor-not-allowed;
+}
+
+.habits-list__checkbox-inner {
+  @apply h-8 w-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 transition-colors group-focus:ring-2 group-focus:ring-violet-700 group-focus:ring-offset-2 group-focus:ring-offset-background;
+}
+
+.habits-list__checkbox-label {
+  @apply font-semibold text-xl text-white leading-tight;
+}

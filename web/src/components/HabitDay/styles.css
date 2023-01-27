@@ -1,0 +1,19 @@
+.habit-day {
+  @apply w-10 h-10 border-2 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-violet-700 focus:ring-offset-2 focus:ring-offset-background;
+}
+
+.habit-day--disabled {
+  @apply opacity-40 cursor-not-allowed;
+}
+
+.habit-day__popover {
+  @apply min-w-[320px] p-6 rounded-2xl bg-zinc-900 flex flex-col;
+}
+
+.habit-day__popover-weekday {
+  @apply font-semibold text-zinc-400;
+}
+
+.habit-day__popover-date {
+  @apply mt-1 font-extrabold leading-tight text-3xl;
+}
